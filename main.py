@@ -3,7 +3,7 @@ from linenotify import send_line_notify
 import schedule
 
 def run():
-    return send_line_notify("これはテストです")
+    return send_line_notify("1時だよ")
 
 # 火曜日の午前1時に実行
 schedule.every().tuesday.at("01:00").do(run)
