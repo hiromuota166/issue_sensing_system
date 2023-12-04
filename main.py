@@ -6,4 +6,4 @@ def run():
 
 while True:
     run()
-    time.sleep(60)
+    time.sleep(100)
