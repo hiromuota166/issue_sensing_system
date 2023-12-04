@@ -7,7 +7,7 @@ load_dotenv()
 # APIのURLとトークン
 url = "https://notify-api.line.me/api/notify"
 
-access_token = [os.getenv("LINE_NOTIFY")]
+access_token = [os.environ.get("LINE_NOTIFY")]
 
 message = "こーとがあいてるよ！"
 
